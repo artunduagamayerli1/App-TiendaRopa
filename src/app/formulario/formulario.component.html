@@ -1,0 +1,19 @@
+<app-menu></app-menu>
+
+<form action="" class="form" [formGroup]="datosformulario">
+
+    <h4>{{titulo}}</h4>
+
+<p ><input type="text" placeholder="Product name" name="name" formControlName="name" >Nombre</p>
+
+<!--<p ><input type="email" name="email" formControlName="email" >Email</p>
+-->
+<p ><input type="text" placeholder="Price" name="price" formControlName="price" >Precio</p>
+
+<p >
+    <textarea name="description" formControlName="description" placeholder="Description..."></textarea>Descripcion del producto
+</p>
+
+<button (click)="recibirdatos()">Enviar</button>
+
+</form>

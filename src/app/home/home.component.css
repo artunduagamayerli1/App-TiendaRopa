@@ -1,0 +1,33 @@
+
+header{
+ background-color: aquamarine;
+ text-align: center;
+}
+
+footer{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+article{
+    background-color: bisque;
+}
+
+aside{
+    background-color: rgb(84, 190, 155);
+}
+
+.columna1{
+    background-color: rgb(62, 119, 119);
+}
+.columna2{
+    background-color: rgb(113, 197, 102);
+}
+
+.columna3{
+    background-color: rgb(131, 126, 216);
+}
+
+.columna4{
+    background-color: rgb(205, 99, 192);
+}
